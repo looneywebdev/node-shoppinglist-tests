@@ -15,8 +15,8 @@ router.get("/", (req, res) => {
   res.json(ShoppingList.get());
 });
 
-// when a new shopping list item is posted, make sure it's
-// got required fields ('name' and 'checked'). if not,
+// when a new shopping list item is posted, make sure it
+// has required fields ('name' and 'checked'). if not,
 // log an error and return a 400 status code. if okay,
 // add new item to ShoppingList and return it with a 201.
 router.post("/", (req, res) => {
