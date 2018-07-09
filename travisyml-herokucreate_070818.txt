@@ -1,0 +1,143 @@
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ touch .travis.yml
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ open travis.yml
+The file /Users/HeatherMarieLooney/Desktop/various-projects/node-shoppinglist-tests/node-shopping-list-integration-tests/travis.yml does not exist.
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ open .travis.yml
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ git add .
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ git commit -m 'travisyml file add'
+[master 69c1983] travisyml file add
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .travis.yml
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ git push https://github.com/looneywebdev/node-shoppinglist-tests.git
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 1), reused 1 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/looneywebdev/node-shoppinglist-tests.git
+   3927143..69c1983  master -> master
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ git log
+commit 69c198356e88a343e897293dd5de10abc961e85b (HEAD -> master)
+Author: Heather Looney <looneydevelopment@gmail.com>
+Date:   Sun Jul 8 18:16:33 2018 -0700
+
+    travisyml file add
+
+commit 39271433439fe971fa6fcd564a7ad6e201379263
+Author: Heather Looney <looneydevelopment@gmail.com>
+Date:   Sun Jul 8 17:15:49 2018 -0700
+
+    shoppingListRouterjs
+
+commit d272a641b4ff67058994235fa25eebfe0b4179c3
+Author: Heather Looney <looneydevelopment@gmail.com>
+Date:   Sat Jul 7 18:31:48 2018 -0700
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ ruby -v
+ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ sudo gem install travis
+Password:
+Fetching: multipart-post-2.0.0.gem (100%)
+Successfully installed multipart-post-2.0.0
+Fetching: faraday-0.15.2.gem (100%)
+Successfully installed faraday-0.15.2
+Fetching: faraday_middleware-0.12.2.gem (100%)
+Successfully installed faraday_middleware-0.12.2
+Fetching: highline-1.7.10.gem (100%)
+Successfully installed highline-1.7.10
+Fetching: backports-3.11.3.gem (100%)
+Successfully installed backports-3.11.3
+Fetching: multi_json-1.13.1.gem (100%)
+Successfully installed multi_json-1.13.1
+Fetching: addressable-2.4.0.gem (100%)
+Successfully installed addressable-2.4.0
+Fetching: net-http-persistent-2.9.4.gem (100%)
+Successfully installed net-http-persistent-2.9.4
+Fetching: net-http-pipeline-1.0.1.gem (100%)
+Successfully installed net-http-pipeline-1.0.1
+Fetching: gh-0.15.1.gem (100%)
+Successfully installed gh-0.15.1
+Fetching: launchy-2.4.3.gem (100%)
+Successfully installed launchy-2.4.3
+Fetching: ffi-1.9.25.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed ffi-1.9.25
+Fetching: ethon-0.11.0.gem (100%)
+Successfully installed ethon-0.11.0
+Fetching: typhoeus-0.8.0.gem (100%)
+Successfully installed typhoeus-0.8.0
+Fetching: websocket-1.2.8.gem (100%)
+Successfully installed websocket-1.2.8
+Fetching: pusher-client-0.6.2.gem (100%)
+Successfully installed pusher-client-0.6.2
+Fetching: travis-1.8.8.gem (100%)
+Successfully installed travis-1.8.8
+invalid options: -SHN
+(invalid options are ignored)
+Parsing documentation for multipart-post-2.0.0
+Installing ri documentation for multipart-post-2.0.0
+Parsing documentation for faraday-0.15.2
+Installing ri documentation for faraday-0.15.2
+Parsing documentation for faraday_middleware-0.12.2
+Installing ri documentation for faraday_middleware-0.12.2
+Parsing documentation for highline-1.7.10
+Installing ri documentation for highline-1.7.10
+Parsing documentation for backports-3.11.3
+Installing ri documentation for backports-3.11.3
+Parsing documentation for multi_json-1.13.1
+Installing ri documentation for multi_json-1.13.1
+Parsing documentation for addressable-2.4.0
+Installing ri documentation for addressable-2.4.0
+Parsing documentation for net-http-persistent-2.9.4
+Installing ri documentation for net-http-persistent-2.9.4
+Parsing documentation for net-http-pipeline-1.0.1
+Installing ri documentation for net-http-pipeline-1.0.1
+Parsing documentation for gh-0.15.1
+Installing ri documentation for gh-0.15.1
+Parsing documentation for launchy-2.4.3
+Installing ri documentation for launchy-2.4.3
+Parsing documentation for ffi-1.9.25
+Installing ri documentation for ffi-1.9.25
+Parsing documentation for ethon-0.11.0
+Installing ri documentation for ethon-0.11.0
+Parsing documentation for typhoeus-0.8.0
+Installing ri documentation for typhoeus-0.8.0
+Parsing documentation for websocket-1.2.8
+Installing ri documentation for websocket-1.2.8
+Parsing documentation for pusher-client-0.6.2
+Installing ri documentation for pusher-client-0.6.2
+Parsing documentation for travis-1.8.8
+Installing ri documentation for travis-1.8.8
+Done installing documentation for multipart-post, faraday, faraday_middleware, highline, backports, multi_json, addressable, net-http-persistent, net-http-pipeline, gh, launchy, ffi, ethon, typhoeus, websocket, pusher-client, travis after 37 seconds
+17 gems installed
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ travis login
+We need your GitHub login to identify you.
+This information will not be sent to Travis CI, only to api.github.com.
+The password will not be displayed.
+
+Try running with --github-token or --auto if you don't want to enter your password anyway.
+
+Username: looneywebdev
+Password for looneywebdev: *******************
+Successfully logged in as looneywebdev!
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ travis setup heroku
+Detected repository as Thinkful-Ed/node-shopping-list-integration-tests, is this correct? |yes|
+Heroku application name: |node-shopping-list-integration-tests|
+Deploy only from Thinkful-Ed/node-shopping-list-integration-tests? |yes|
+Encrypt API key? |yes|
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ heroku create
+Creating app... done, ⬢ protected-mesa-63653
+https://protected-mesa-63653.herokuapp.com/ | https://git.heroku.com/protected-mesa-63653.git
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ git add .
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ git commit -m 'travisyml add new heroku app name'
+[master 55a8375] travisyml add new heroku app name
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$ git push https://github.com/looneywebdev/node-shoppinglist-tests
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 967 bytes | 967.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/looneywebdev/node-shoppinglist-tests
+   69c1983..55a8375  master -> master
+HBs-MacBook-Pro:node-shopping-list-integration-tests HeatherMarieLooney$
